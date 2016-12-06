@@ -1,0 +1,420 @@
+.visual {
+  position: relative;
+  width: 100%;
+  height: 600px; }
+  .visual .slider {
+    position: relative;
+    width: 100%;
+    height: 600px; }
+    .visual .slider .item {
+      position: relative;
+      padding-top: 80px;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+      background-position: 50% 0; }
+      .visual .slider .item .details {
+        margin: 0 auto;
+        padding: 50px;
+        width: 570px;
+        height: 360px;
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        color: #fff; }
+        .visual .slider .item .details h3 {
+          font-size: 60px;
+          font-weight: normal; }
+        .visual .slider .item .details hr {
+          margin: 25px auto;
+          width: 230px;
+          border-top-width: 2px;
+          text-align: center; }
+        .visual .slider .item .details p {
+          margin-bottom: 40px;
+          font-size: 17px;
+          line-height: 25px;
+          font-weight: 300; }
+        .visual .slider .item .details a {
+          display: inline-block;
+          width: 170px;
+          height: 40px;
+          line-height: 38px;
+          border: 1px solid #fff;
+          background-color: rgba(255, 255, 255, 0.15);
+          color: #fff;
+          font-size: 15px;
+          text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+          text-decoration: none; }
+          .visual .slider .item .details a:focus, .visual .slider .item .details a:hover {
+            background-color: #e9193a;
+            border-color: #e9193a;
+            text-shadow: none; }
+  .visual .nav-container {
+    position: aBsolute;
+    left: 0;
+    bottom: 25px;
+    width: 100%; }
+    .visual .nav-container .nav li {
+      padding-left: 1px; }
+      .visual .nav-container .nav li a {
+        height: 40px;
+        border-radius: 0;
+        background-color: rgba(255, 255, 255, 0.9);
+        font-size: 15px;
+        color: #333; }
+        .visual .nav-container .nav li a:hover, .visual .nav-container .nav li a:focus {
+          color: #e9193a; }
+      .visual .nav-container .nav li:first-child {
+        padding-left: 0; }
+      .visual .nav-container .nav li.active a {
+        background-color: #e9193a;
+        color: #fff; }
+
+.key-contents {
+  border-bottom: 1px solid #eee; }
+
+.community {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  background-image: url(/images/main/bg_community_1.jpg);
+  background-position: 50% 50%;
+  background-size: cover; }
+  .community .staff {
+    position: relative;
+    height: 500px;
+    background-image: url(/images/main/bg_staff.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center; }
+    .community .staff a {
+      display: block;
+      text-decoration: none; }
+      .community .staff a h3 {
+        position: relative;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 100;
+        color: #fff;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7);
+        letter-spacing: -2px;
+        z-index: 1; }
+        .community .staff a h3 b {
+          font-weight: 500; }
+      .community .staff a p {
+        font-size: 15px;
+        line-height: 23px;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+        color: #fff;
+        z-index: 1; }
+      .community .staff a .img-doctors {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 0;
+        width: 585px; }
+  .community .appointment {
+    height: 500px;
+    background-image: url(/images/main/bg_appointment.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center; }
+    .community .appointment h3 {
+      margin-top: 60px;
+      margin-bottom: 20px;
+      font-size: 40px;
+      line-height: 50px;
+      font-weight: 100;
+      color: #333;
+      letter-spacing: -2px; }
+      .community .appointment h3 b {
+        font-weight: 500; }
+    .community .appointment p {
+      margin-bottom: 20px;
+      font-size: 15px;
+      line-height: 23px;
+      color: #666; }
+    .community .appointment form {
+      margin: 0 auto;
+      width: 430px; }
+      .community .appointment form .row {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 5px;
+        height: 40px;
+        background-color: rgba(255, 255, 255, 0.5); }
+        .community .appointment form .row > div {
+          padding-left: 0;
+          padding-right: 0; }
+        .community .appointment form .row label {
+          padding-left: 15px;
+          width: 100%;
+          font-size: 15px;
+          color: #333;
+          text-align: left;
+          letter-spacing: -1px;
+          font-weight: normal;
+          line-height: 40px; }
+        .community .appointment form .row .form-control {
+          height: 40px;
+          border: 0;
+          border-radius: 0;
+          box-shadow: none;
+          font-size: 15px;
+          background-color: transparent; }
+          .community .appointment form .row .form-control:focus {
+            box-shadow: none; }
+        .community .appointment form .row:nth-of-type(2) .form-control, .community .appointment form .row:nth-of-type(3) .form-control {
+          float: left;
+          width: 50%; }
+      .community .appointment form .btn {
+        height: 40px;
+        font-size: 15px;
+        background-color: #e9193a;
+        color: #fff; }
+        .community .appointment form .btn:focus, .community .appointment form .btn:hover {
+          background-color: #444; }
+  .community .news {
+    position: relative;
+    margin-top: 60px; }
+    .community .news h4 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 22px;
+      line-height: 35px;
+      font-weight: normal;
+      color: #bf122d; }
+      .community .news h4:before {
+        margin-right: 15px;
+        content: url("/images/main/ico_speaker.png"); }
+    .community .news .news-content {
+      padding: 35px 40px;
+      height: 320px;
+      border: 1px solid #dedede;
+      background-color: #fff; }
+      .community .news .news-content ol li a {
+        position: relative;
+        overflow: hidden;
+        display: block;
+        font-size: 15px;
+        color: #666;
+        text-decoration: none;
+        line-height: 38px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        padding-right: 170px; }
+        .community .news .news-content ol li a .label {
+          position: relative;
+          top: -1px; }
+        .community .news .news-content ol li a time {
+          position: absolute;
+          right: 0;
+          font-weight: normal; }
+        .community .news .news-content ol li a:focus, .community .news .news-content ol li a:hover {
+          color: #e9193a; }
+    .community .news .more {
+      position: absolute;
+      top: 0;
+      right: 0;
+      color: #333;
+      font-size: 22px; }
+  .community .movie {
+    position: relative;
+    margin-top: 60px; }
+    .community .movie h4 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 22px;
+      line-height: 35px;
+      font-weight: normal;
+      color: #bf122d; }
+      .community .movie h4:before {
+        margin-right: 15px;
+        content: url("/images/main/ico_film.png"); }
+    .community .movie .movie-content {
+      height: 320px; }
+      .community .movie .movie-content a {
+        display: block;
+        width: 100%;
+        height: 100%; }
+        .community .movie .movie-content a:hover, .community .movie .movie-content a:focus {
+          background-color: rgba(251, 154, 83, 0.7); }
+  .community .review {
+    position: relative;
+    margin-top: 60px; }
+    .community .review h4 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 22px;
+      line-height: 35px;
+      font-weight: normal;
+      color: #bf122d; }
+      .community .review h4:before {
+        margin-right: 15px;
+        content: url("/images/main/ico_rescue.png"); }
+    .community .review .review-content {
+      background-image: url(/images/main/bg_review.jpg);
+      background-repeat: no-repeat; }
+      .community .review .review-content ul li {
+        width: 370px;
+        height: 320px; }
+        .community .review .review-content ul li:before {
+          display: table; }
+        .community .review .review-content ul li a {
+          display: table-cell;
+          padding: 40px;
+          width: 370px;
+          height: 320px;
+          vertical-align: middle;
+          text-align: center;
+          color: #fff;
+          text-decoration: none; }
+          .community .review .review-content ul li a h5 {
+            margin-top: 0;
+            font-size: 30px;
+            font-weight: normal; }
+          .community .review .review-content ul li a p {
+            margin-bottom: 20px;
+            font-size: 16px;
+            line-height: 22px; }
+          .community .review .review-content ul li a span:before {
+            padding-right: 3px;
+            content: '-'; }
+          .community .review .review-content ul li a:focus p, .community .review .review-content ul li a:hover p {
+            text-decoration: underline; }
+    .community .review .more {
+      position: absolute;
+      top: 0;
+      right: 0;
+      color: #333;
+      font-size: 22px; }
+    .community .review .bx-controls {
+      position: absolute;
+      bottom: 30px;
+      left: 0;
+      width: 100%;
+      text-align: center; }
+      .community .review .bx-controls .bx-pager {
+        height: 12px; }
+        .community .review .bx-controls .bx-pager .bx-pager-item {
+          display: inline-block;
+          width: 12px;
+          height: 12px;
+          margin: 0 3px; }
+          .community .review .bx-controls .bx-pager .bx-pager-item .bx-pager-link {
+            display: block;
+            width: 100%;
+            height: 100%;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            text-indent: -999em; }
+            .community .review .bx-controls .bx-pager .bx-pager-item .bx-pager-link.active {
+              background-color: #fff; }
+  .community .social {
+    margin-top: 60px; }
+    .community .social h4 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 22px;
+      line-height: 35px;
+      font-weight: normal;
+      color: #bf122d; }
+      .community .social h4:before {
+        margin-right: 15px;
+        content: url("/images/main/ico_speech_bubble.png"); }
+    .community .social .social-content {
+      height: 320px;
+      background-color: #fff; }
+      .community .social .social-content .nav {
+        width: 100%;
+        border-bottom: 0; }
+        .community .social .social-content .nav li {
+          float: left;
+          margin-bottom: 0;
+          width: 50%; }
+          .community .social .social-content .nav li a {
+            margin-right: 0;
+            padding: 0;
+            border: 0;
+            height: 40px;
+            line-height: 40px;
+            font-size: 16px;
+            border-radius: 0;
+            font-weight: 300;
+            text-align: center; }
+            .community .social .social-content .nav li a img {
+              display: block;
+              margin: 0 auto; }
+          .community .social .social-content .nav li.nblog a {
+            background-color: #6e6e6e;
+            color: #fff; }
+            .community .social .social-content .nav li.nblog a:before {
+              margin-right: 15px;
+              content: url(/images/main/ico_nblog_1.png); }
+          .community .social .social-content .nav li.facebook a {
+            padding-top: 10px;
+            background-color: #4767aa;
+            color: #fff; }
+      .community .social .social-content .tab-content {
+        border: 1px solid #dedede; }
+        .community .social .social-content .tab-content .tab-pane {
+          height: 280px; }
+
+.about {
+  height: 300px;
+  background-image: url(/images/main/bg_about_1.jpg);
+  background-position: 50% 50%;
+  background-size: cover; }
+  .about h3 {
+    margin-top: 90px;
+    margin-bottom: 0;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #fff;
+    font-weight: 100; }
+    .about h3 b {
+      font-weight: 500; }
+
+#footer .bus {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #e9193a;
+  height: 185px;
+  text-align: center;
+  color: #fff; }
+  #footer .bus h4 {
+    margin-bottom: 5px !important;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 300; }
+    #footer .bus h4:before {
+      margin-right: 10px;
+      content: url(/images/main/ico_bus_1.png);
+      vertical-align: middle; }
+  #footer .bus p {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 200; }
+  #footer .bus a {
+    display: block;
+    margin: 10px auto 0;
+    width: 170px;
+    height: 40px;
+    border: 1px solid #fff;
+    line-height: 38px;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 100; }
+    #footer .bus a:focus, #footer .bus a:hover {
+      background-color: #fff;
+      color: #e9193a;
+      font-weight: 400; }
+
+/*# sourceMappingURL=main_test.css.map */
